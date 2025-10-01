@@ -83,7 +83,3 @@ src/
 - Add a countdown timer mode.
 - Improve UI with a styled interface.
 - Add sound or visual notifications when certain milestones are reached.
-
-## License
-This project is licensed under the MIT License.
-
