@@ -14,7 +14,7 @@ This is a simple stopwatch application built using React. The app demonstrates t
 ## Technologies Used
 - React
 - JavaScript (ES6+)
-- CSS (for basic styling, if any)
+- CSS 
 
 ## How It Works:-
 1. **State Management**:
