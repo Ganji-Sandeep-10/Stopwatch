@@ -1,4 +1,4 @@
-# Stopwatch Application
+# ⏱️Stopwatch Application
 
 ## Overview
 This is a simple stopwatch application built using React. The app demonstrates the use of React hooks like `useState` and `useEffect` to manage state and side effects. The stopwatch tracks hours, minutes, and seconds and provides options to start, stop, and reset the timer.
