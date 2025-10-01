@@ -16,7 +16,7 @@ This is a simple stopwatch application built using React. The app demonstrates t
 - JavaScript (ES6+)
 - CSS (for basic styling, if any)
 
-## How It Works
+## How It Works:-
 1. **State Management**:
    - `time`: Tracks the total elapsed time in seconds.
    - `isRunning`: Boolean to indicate whether the stopwatch is running.
