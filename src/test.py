@@ -1,45 +1,40 @@
 # Arithmetic
 num1 = 10
 num2 = 20
-sum = num1 + num2
-print(f"The sum of {num1} and {num2} is: {sum}"  # missing closing parenthesis
-
+sum_result = num1 + num2
+print(f"The sum of {num1} and {num2} is: {sum_result}")
 
 # List operations
 my_list = [1, 2, 3, 4, 5]
 
-my_list.append(6   # missing closing parenthesis
+my_list.append(6)
 print(f"List after appending: {my_list}")
 
-my_list.remove(2   # missing closing parenthesis
-print(f"List after removing: {my_list}")
+my_list.remove(2)
+print(f"List after removing: {my_list}"
 
-print(f"Length of the list: {len(my_list}"  # missing closing parenthesis
-
+print(f"Length of the list: {len(my_list)}")
 
 # Conditional
-if num1 = 10:   # invalid assignment instead of comparison
-    print("num1 is 10"  # missing closing parenthesis
-
+if num1 == 10:  # use '==' for comparison
+    print("num1 is 10")
 
 # Loop
-for i in range(5)   # missing colon
+for i in range(5):
     print(i)
 
-
 # Function
-def my_function(   # missing closing parenthesis & colon
+def my_function():
     print("Hello from function")
 
+my_function()  # call the function
 
-# Invalid return outside function
-return "Outside function"
-
+# Factorial function
 def factorial(n):
     if n == 0:
         return 1
     else:
-        return n * factorial(n - 1)
+        return n * factorial n - 1)
 
 num = int(input("Enter a non-negative number: "))
 if num < 0:
