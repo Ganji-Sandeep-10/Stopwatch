@@ -1,28 +1,28 @@
-# This is a second updated Python file
+# This Python file is now revised again
 
 # Arithmetic operation
-x = 7
-y = 3
-result_xy = x - y  # Changed from previous operation to subtraction
-print(f'Difference of x and y is: {result_xy}')
+num1 = 100
+num2 = 50
+quotient = num1 / num2  # Changed to division
+print(f'Quotient of num1 and num2 is: {quotient}')
 
 # List operations
-your_list = [10, 20, 30, 40]
-your_list.extend([50])  # Changed method to extend for addition
-print(f'Another updated list: {your_list}')
+demo_list = [99, 77, 55]
+demo_list.pop()  # Changed operation to remove the last element
+print(f'List after pop: {demo_list}')
 
 # Conditional
-if x == y:
-    print('x equals y')
+if num1 != num2:
+    print('num1 and num2 are different')
 else:
-    print('x does not equal y')  # Added unique else branch
+    print('num1 and num2 are the same')  # Different branching logic
 
 # Loop
-for j in range(4, 7):  # Changed loop range and variable
-    print(f'Second loop pass: {j}')
+for idx in range(2):
+    print(f'Third loop run: {idx}')  # Changed loop and output
 
 # Function
-def farewell(name):
-    print(f'Goodbye, {name}!')  # Changed function intent and string
+def shout(name):
+    print(f'HEY, {name.upper()}!')  # Function now shouts back
 
-farewell('Coder')
+shout('Builder')
