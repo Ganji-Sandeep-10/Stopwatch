@@ -1,28 +1,28 @@
-# This is an updated Python file
+# This is a second updated Python file
 
 # Arithmetic operation
-a = 15
-b = 20
-sum_ab = a * b  # Changed from addition to multiplication
-print(f'Product of a and b is: {sum_ab}')
+x = 7
+y = 3
+result_xy = x - y  # Changed from previous operation to subtraction
+print(f'Difference of x and y is: {result_xy}')
 
 # List operations
-my_list = [10, 9, 8, 7, 6]
-my_list.insert(0, 5)  # Changed to insert at the beginning
-print(f'Updated reversed list: {my_list}')
+your_list = [10, 20, 30, 40]
+your_list.extend([50])  # Changed method to extend for addition
+print(f'Another updated list: {your_list}')
 
 # Conditional
-if a > b:
-    print('a is greater than b')
+if x == y:
+    print('x equals y')
 else:
-    print('a is not greater than b')  # Added else branch
+    print('x does not equal y')  # Added unique else branch
 
 # Loop
-for i in range(1, 4):  # Changed loop range
-    print(f'Updated loop iteration: {i}')
+for j in range(4, 7):  # Changed loop range and variable
+    print(f'Second loop pass: {j}')
 
 # Function
-def greet(name):
-    print(f'Hello and welcome, {name}!')  # Modified greeting
+def farewell(name):
+    print(f'Goodbye, {name}!')  # Changed function intent and string
 
-greet('Developer')
+farewell('Coder')
