@@ -1,28 +1,28 @@
-# This Python file is now revised again
+# This is an updated Python file
 
 # Arithmetic operation
-num1 = 100
-num2 = 50
-quotient = num1 / num2  # Changed to division
-print(f'Quotient of num1 and num2 is: {quotient}')
+a = 15
+b = 20
+sum_ab = a * b  # Changed from addition to multiplication
+print(f'Product of a and b is: {sum_ab}')
 
 # List operations
-demo_list = [99, 77, 55]
-demo_list.pop()  # Changed operation to remove the last element
-print(f'List after pop: {demo_list}')
+my_list = [10, 9, 8, 7, 6]
+my_list.insert(0, 5)  # Changed to insert at the beginning
+print(f'Updated reversed list: {my_list}')
 
 # Conditional
-if num1 != num2:
-    print('num1 and num2 are different')
+if a > b:
+    print('a is greater than b')
 else:
-    print('num1 and num2 are the same')  # Different branching logic
+    print('a is not greater than b')  # Added else branch
 
 # Loop
-for idx in range(2):
-    print(f'Third loop run: {idx}')  # Changed loop and output
+for i in range(1, 4):  # Changed loop range
+    print(f'Updated loop iteration: {i}')
 
 # Function
-def shout(name):
-    print(f'HEY, {name.upper()}!')  # Function now shouts back
+def greet(name):
+    print(f'Hello and welcome, {name}!')  # Modified greeting
 
-shout('Builder')
+greet('Developer')
