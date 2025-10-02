@@ -34,3 +34,15 @@ def my_function(   # missing closing parenthesis & colon
 
 # Invalid return outside function
 return "Outside function"
+
+def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n - 1)
+
+num = int(input("Enter a non-negative number: "))
+if num < 0:
+    print("Factorial is not defined for negative numbers.")
+else:
+    print(f"The factorial of {num} is: {factorial(num)}")
