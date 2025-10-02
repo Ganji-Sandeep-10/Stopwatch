@@ -1,43 +1,26 @@
-# Arithmetic
-num1 = 10
-num2 = 20
-sum_result = num1 + num2
-print(f"The sum of {num1} and {num2} is: {sum_result}")
+# This is a dummy Python file
+
+# Arithmetic operation
+a = 5
+b = 10
+sum_ab = a + b
+print(f'Sum of a and b is: {sum_ab}')
 
 # List operations
 my_list = [1, 2, 3, 4, 5]
-
 my_list.append(6)
-print(f"List after appending: {my_list}")
-
-my_list.remove(2)
-
-
-print(f"Length of the list: {len(my_list)}")
+print(f'Updated list: {my_list}')
 
 # Conditional
-if num1 == 10:  # use '==' for comparison
-    print("num1 is 10")
+if a < b:
+    print('a is less than b')
 
 # Loop
-for i in range(5):
-    print(i)
+for i in range(3):
+    print(f'Loop iteration: {i}')
 
 # Function
-def my_function():
-    print("Hello from function")
+def greet(name):
+    print(f'Hello, {name}!')
 
-my_function()  # call the function
-
-# Factorial function
-def factorial(n):
-    if n == 0:
-        return 1
-    else:
-        return n * factorial n - 1)
-
-num = int(input("Enter a non-negative number: "))
-if num < 0:
-    print("Factorial is not defined for negative numbers.")
-else:
-    print(f"The factorial of {num} is: {factorial(num)}")
+greet('User')
