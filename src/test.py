@@ -11,7 +11,7 @@ my_list.append(6)
 print(f"List after appending: {my_list}")
 
 my_list.remove(2)
-print(f"List after removing: {my_list}"
+
 
 print(f"Length of the list: {len(my_list)}")
 
